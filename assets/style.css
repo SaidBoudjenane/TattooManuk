@@ -102,3 +102,11 @@ header {
     border: 3px solid black;
     overflow: hidden;
 }
+
+.preview_text h2 {
+    padding: 10% 10% 0 10%;
+}
+
+.preview_text p {
+    padding: 0 10% 10% 10%;
+}
