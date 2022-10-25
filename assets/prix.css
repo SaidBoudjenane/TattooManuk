@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +13,9 @@ body {
     background: rgb(35, 35, 35);
 }
 
-a, p, h2 {
+a,
+p,
+h2 {
     color: white;
     text-decoration: none;
 }
@@ -107,7 +113,7 @@ footer {
     flex-direction: column;
 }
 
-#email {
+#email, #link_contact {
     color: #b6b6b6;
 }
 
@@ -117,13 +123,16 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 4vh 0 4vh;
+    align-items: center;
 }
 
 h2 {
     margin: 0;
 }
 
-#prix_oreille, #prix_visage, #prix_corps {
+#prix_oreille,
+#prix_visage,
+#prix_corps, #tatouages {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,19 +140,25 @@ h2 {
     gap: 4vh;
 }
 
-#details_prix_oreille, #details_prix_visage, #details_prix_corps {
+#details_prix_oreille,
+#details_prix_visage,
+#details_prix_corps {
     display: flex;
     flex-direction: column;
     gap: 4vh;
 }
 
-.details_prix_oreille, .details_prix_visage, .details_prix_corps {
+.details_prix_oreille,
+.details_prix_visage,
+.details_prix_corps {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.prix_oreille, .prix_visage, .prix_corps {
+.prix_oreille,
+.prix_visage,
+.prix_corps {
     display: flex;
     flex-direction: column;
     height: 100px;
@@ -153,11 +168,20 @@ h2 {
     text-align: center;
 }
 
-#prix_visage, #prix_corps {
+#prix_tatouages {
+    background-color: #1a1a1a;
+    padding: 15px;
+    text-align: center;
+}
+
+#prix_visage,
+#prix_corps, #tatouages {
     margin-top: 4vh;
 }
 
-#prix_oreille > img, #prix_visage > img, #prix_corps > img {
+#prix_oreille>img,
+#prix_visage>img,
+#prix_corps>img {
     height: 400px;
 }
 
@@ -179,4 +203,19 @@ h2 {
     color: white;
     font-weight: bold;
     z-index: 3;
+}
+
+/* Index */
+
+#index {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    height: 50px;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 4vh;
 }
