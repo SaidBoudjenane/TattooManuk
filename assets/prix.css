@@ -135,13 +135,12 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 4vh;
-    min-width: 1200px;
 }
 
 .details_prix_oreille, .details_prix_visage, .details_prix_corps {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .prix_oreille, .prix_visage, .prix_corps {
