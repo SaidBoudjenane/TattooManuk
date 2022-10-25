@@ -1,7 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -13,9 +9,7 @@ body {
     background: rgb(35, 35, 35);
 }
 
-a,
-p,
-h2 {
+a, p, h2 {
     color: white;
     text-decoration: none;
 }
@@ -113,109 +107,66 @@ footer {
     flex-direction: column;
 }
 
-#email, #link_contact {
+#email {
     color: #b6b6b6;
 }
 
-/* Prix */
-
-#prix {
+/* Contenu de la page*/
+.contenue,
+#creme1,
+#creme2 {
     display: flex;
-    flex-direction: column;
-    margin: 4vh 0 4vh;
-    align-items: center;
-}
-
-h2 {
-    margin: 0;
-}
-
-#prix_oreille,
-#prix_visage,
-#prix_corps, #tatouages {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    gap: 4vh;
-}
-
-#details_prix_oreille,
-#details_prix_visage,
-#details_prix_corps {
-    display: flex;
-    flex-direction: column;
-    gap: 4vh;
-}
-
-.details_prix_oreille,
-.details_prix_visage,
-.details_prix_corps {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.prix_oreille,
-.prix_visage,
-.prix_corps {
-    display: flex;
-    flex-direction: column;
-    height: 100px;
-    width: 140px;
-    background-color: #1a1a1a;
-    padding: 5px;
-    text-align: center;
-}
-
-#prix_tatouages {
-    background-color: #1a1a1a;
-    padding: 15px;
-    text-align: center;
-}
-
-#prix_visage,
-#prix_corps, #tatouages {
-    margin-top: 4vh;
-}
-
-#prix_oreille>img,
-#prix_visage>img,
-#prix_corps>img {
-    height: 400px;
-}
-
-.nom_item {
-    font-weight: bold;
-    z-index: 2;
-}
-
-
-.nom_item::after {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-    border-bottom: 1px solid grey;
-}
-
-.prix {
-    color: white;
-    font-weight: bold;
-    z-index: 3;
-}
-
-/* Index */
-
-#index {
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    gap: 1vw;
-    height: 50px;
-    width: 30vw;
-    align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    
+    color: white;
+
+}
+
+#creme1,
+#creme2,
+#para1,
+#para2 {
+    width: 66%;
+
+}
+
+#para1,
+#para2 {
+    padding: 0 5% 0 5%;
+    background-color: #1a1a1a;
+
+
+}
+
+.image>img {
+    height: 400px;
+
+}
+
+.utilise {
+    color: red;
+
+}
+
+.lienBoutique {
+    color: aqua;
+    font-weight: bold;
+}
+
+.titreCreme {
+    color: coral;
+}
+
+#titrePage {
+    color: rgb(255, 255, 255);
+    margin: 4vh 0 4vh;
+    padding: 0 2% 0 2%;
+}
+
+#main {
     margin-bottom: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
