@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(35, 35, 35);
+}
+
+a, p, h2 {
+    color: white;
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    height: 12vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo {
+    height: 7vh;
+}
+
+#liens {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.sub_lien {
+    padding: 8px;
+    border-radius: 3px;
+    transition: 0.3s
+}
+
+.sub_lien:hover {
+    background-color: rgb(33, 33, 33);
+}
+
+/* Footer */
+
+#ReseauxS {
+
+    margin-left: 20px;
+    display: flex;
+
+}
+
+.icone>a>img {
+    margin-left: 10px;
+    width: 50px;
+}
+
+#titre_reseaux {
+    padding-left: 28px;
+    align-items: center;
+
+}
+
+#image_localisation>img {
+    height: 120px;
+    border-radius: 10%;
+
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#texte_adresse {
+
+    display: flex;
+}
+
+#localisation {
+    display: flex;
+    align-items: center;
+
+}
+
+.texte_adresse {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+footer {
+    padding-top: 10px;
+    background-color: black;
+    width: 100%;
+}
+
+#container2 {
+    font-weight: bold;
+    display: flex;
+
+    flex-direction: column;
+}
+
+#email {
+    color: #b6b6b6;
+}
+
+/* Prix */
+
+#prix {
+    display: flex;
+    flex-direction: column;
+    margin: 4vh 0 4vh;
+}
+
+h2 {
+    margin: 0;
+}
+
+#prix_oreille, #prix_visage, #prix_corps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 4vh;
+}
+
+#details_prix_oreille, #details_prix_visage, #details_prix_corps {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    min-width: 1200px;
+}
+
+.details_prix_oreille, .details_prix_visage, .details_prix_corps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.prix_oreille, .prix_visage, .prix_corps {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 140px;
+    background-color: #1a1a1a;
+    padding: 5px;
+    text-align: center;
+}
+
+#prix_visage, #prix_corps {
+    margin-top: 4vh;
+}
+
+#prix_oreille > img, #prix_visage > img, #prix_corps > img {
+    height: 400px;
+}
+
+.nom_item {
+    font-weight: bold;
+    z-index: 2;
+}
+
+
+.nom_item::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border-bottom: 1px solid grey;
+}
+
+.prix {
+    color: white;
+    font-weight: bold;
+    z-index: 3;
+}
