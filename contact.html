@@ -3,8 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/tatouages.css">
-    <title>Tattoo Manuk</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="assets/formulaire.css">
 </head>
 
 <body>
@@ -27,55 +29,40 @@
             </div>
         </div>
     </header>
+    <section id="container">
 
-    <section>
-        <div class="presentation">
-            <h2 id="TattoosHommes">Tatouages hommes</h2>
-            <div class="images">
-                <div class="imagerow">
-                    <img alt="Exemple de tatouage homme 1" src="assets/images/tattooh1.jpg">
-                    <img alt="Exemple de tatouage homme 2" src="assets/images/tattooh2.jpg">
-                    <img alt="Exemple de tatouage homme 3" src="assets/images/tattooh3.jpg">
+        <form action="" method="get">
+
+            <fieldset id="grp_champs">
+                <legend>Fiche de contact</legend>
+
+                <div class="formCentre">
+                    <label for="Name">Nom</label>
+                    <input type="text" id="name" name="Nom" placeholder="Indiquez votre nom">
                 </div>
-                <div class="imagerow">
-                    <img alt="Exemple de tatouage homme 4" src="assets/images/tattooh4.jpg">
-                    <img alt="Exemple de tatouage homme 5" src="assets/images/tattooh5.jpg">
-                    <img alt="Exemple de tatouage homme 6" src="assets/images/tattooh6.jpg">
+                <div class="formCentre">
+                    <label for="Surname">Prénom</label>
+                    <input type="text" id="surname" name="Prenom" placeholder="Indiquez votre prénom">
                 </div>
-            </div>
-        </div>
-        <div class="presentation">
-            <h2 id="TattoosFemmes">Tatouages femmes</h2>
-            <div class="images">
-                <div class="imagerow">
-                    <img alt="Exemple de tatouage femme 1" src="assets/images/tattoof1.jpg">
-                    <img alt="Exemple de tatouage femme 2" src="assets/images/tattoof2.jpg">
-                    <img alt="Exemple de tatouage femme 3" src="assets/images/tattoof3.jpg">
+                <div class="formCentre">
+                    <label for="mail">Adresse mail</label>
+                    <input type="text" id="mail" name="mail" placeholder="Indiquez votre adresse mail">
                 </div>
-                <div class="imagerow">
-                    <img alt="Exemple de tatouage femme 4" src="assets/images/tattoof4.jpg">
-                    <img alt="Exemple de tatouage femme 5" src="assets/images/tattoof5.jpg">
-                    <img alt="Exemple de tatouage femme 6" src="assets/images/tattoof6.jpg">
+                <div class="formCentre">
+                    <label for="Message">Message</label>
+                    <input type="text" id="text" name="Message" placeholder="Écrivez votre message">
                 </div>
-            </div>
-        </div>
-        <div class="presentation">
-            <h2 id="Piercings">Piercings</h2>
-            <div class="images">
-                <div class="imagerow">
-                    <img alt="Exemple de piercing 1" src="assets/images/piercing1.jpg">
-                    <img alt="Exemple de piercing 2" src="assets/images/piercing2.jpg">
-                    <img alt="Exemple de piercing 3" src="assets/images/piercing3.jpg">
+                <div class="formCentre">
+                    <label for="date">Choisissez une date</label>
+                    <p id="rdv">qui vous conviendrait pour un rendez-vous</p>
+                    <input id="date" type="date">
                 </div>
-                <div class="imagerow">
-                    <img alt="Exemple de piercing 4" src="assets/images/piercing4.jpg">
-                    <img alt="Exemple de piercing 5" src="assets/images/piercing5.jpg">
-                    <img alt="Exemple de piercing 6" src="assets/images/piercing6.jpg">
+                <div id="bouton">
+                    <button>Envoyer</button>
                 </div>
-            </div>
-        </div>
+            </fieldset>
+        </form>
     </section>
-
     <footer>
         <section id="footer">
 
@@ -124,7 +111,6 @@
 
         </section>
     </footer>
-
 </body>
 
 </html>
