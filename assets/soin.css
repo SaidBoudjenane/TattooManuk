@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(35, 35, 35);
+}
+
+a, p, h2 {
+    color: white;
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    height: 12vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo {
+    height: 7vh;
+}
+
+#liens {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.sub_lien {
+    padding: 8px;
+    border-radius: 3px;
+    transition: 0.3s
+}
+
+.sub_lien:hover {
+    background-color: rgb(33, 33, 33);
+}
+
+/* Footer */
+
+#ReseauxS {
+
+    margin-left: 20px;
+    display: flex;
+
+}
+
+.icone>a>img {
+    margin-left: 10px;
+    width: 50px;
+}
+
+#titre_reseaux {
+    padding-left: 28px;
+    align-items: center;
+
+}
+
+#image_localisation>img {
+    height: 120px;
+    border-radius: 10%;
+
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#texte_adresse {
+
+    display: flex;
+}
+
+#localisation {
+    display: flex;
+    align-items: center;
+
+}
+
+.texte_adresse {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+footer {
+    padding-top: 10px;
+    background-color: black;
+    width: 100%;
+}
+
+#container2 {
+    font-weight: bold;
+    display: flex;
+
+    flex-direction: column;
+}
+
+#email {
+    color: #b6b6b6;
+}
+
+/* Contenu de la page*/
+.contenue,
+#creme1,
+#creme2 {
+    display: flex;
+    justify-content: center;
+    
+    color: white;
+
+}
+
+#creme1,
+#creme2,
+#para1,
+#para2 {
+    width: 66%;
+
+}
+
+#para1,
+#para2 {
+    padding: 0 5% 0 5%;
+    background-color: #1a1a1a;
+
+
+}
+
+.image>img {
+    height: 400px;
+
+}
+
+.utilise {
+    color: red;
+
+}
+
+.lienBoutique {
+    color: aqua;
+    font-weight: bold;
+}
+
+.titreCreme {
+    color: coral;
+}
+
+#titrePage {
+    color: rgb(255, 255, 255);
+    margin: 4vh 0 4vh;
+    padding: 0 2% 0 2%;
+}
+
+#main {
+    margin-bottom: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
