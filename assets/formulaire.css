@@ -11,6 +11,11 @@ body {
     align-items: center;
     justify-content: space-around;
     background: rgb(35, 35, 35);
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
 }
 
 a,
